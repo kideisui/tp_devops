@@ -24,6 +24,9 @@
             <target>1.8</target> 
         </configuration>
       </plugin>
+      
+      <!-- debut manifest jar plugin -->
+      <!--
       <plugin>
       <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -34,6 +37,8 @@
           </archive>
         </configuration>
       </plugin>
+      -->
+      <!-- fin manifest jar plugin -->
     </plugins>
   </build>
   
